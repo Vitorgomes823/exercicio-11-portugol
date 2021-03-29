@@ -1,0 +1,24 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro contador , soma = 0  ,novonumero, media
+
+		para (contador = 1; contador <= 10 ; contador ++)
+		{
+			escreva("Digite um valor : ")
+			leia(novonumero)
+			limpa()
+			soma = soma + novonumero
+		}	
+		
+		media = soma / 10
+		
+		escreva("a media desses numeros é : ",media)
+		
+	
+	}
+
+	
+}
